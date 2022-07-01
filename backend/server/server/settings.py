@@ -25,7 +25,9 @@ SECRET_KEY = '$pypcyle_u)x(nj_k##(&#@_d@!i7uk@3nun=qhpuow&ljhdns'
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
 
-ALLOWED_HOSTS = []
+ALLOWED_HOSTS = [
+    ".ap-northeast-2.compute.amazonaws.com"
+]
 
 
 # Application definition
